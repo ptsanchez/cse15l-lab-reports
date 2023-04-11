@@ -16,3 +16,7 @@ Put in your UCSD username (the first part of your UCSD email) and PID. You will 
 ![Image](cse15lPasswordReset.png)
 
 **Note: This username and password are seperate from your TritonLink account. When entering in the username of the account to resest your password, ensure that you use your cs15l account and NOT your TritonLink username.**
+
+## Remotely Connecting
+
+Once you have reset your password, now we can use the terminal in VScode to finally use remote access. 
