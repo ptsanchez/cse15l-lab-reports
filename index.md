@@ -19,7 +19,7 @@ Put in your UCSD username (typically the first part of your UCSD email) and PID.
 
 ## Remotely Connecting
 
-Once you have reset your password, now we can use the terminal in VScode to finally use remote access. If you have a windows device, you will need to download git if you have not done so previously. This can be found at [https://git-scm.com/](https://git-scm.com/). 
+Once you have reset your password, now we can use the terminal in VScode to finally use remote access. If you have a windows device, you will need to download git if you have not done so previously. This can be found at [https://git-scm.com/](https://git-scm.com/). If you are on a Mac device, you can continnue without downloading.
 
 At the top of the VSCode terminal, go to the terminal tab to **New Terminal.** When this terminal is open, on the right side, make sure that the terminal you are using is under bash, which uses _Git Bash_. For example, if you are using windows the default terminal will be powershell. Click the little arrow next to the plus sign on the terminal tab to make a new _Git Bash terminal_. Input the following command, replacing the first part before the "@" with your own cs15l username. The following command is an example of a command using my username to use remote access.
 ```
@@ -37,6 +37,7 @@ Congragulations! You are now using remote access to connect to a computer in the
  
 ![Image](terminal1.png)
 ![Image](terminal2.png)
+
 _This last image appears to show what I believe student accounts in CSE120. By navigating to the directory ieng6, you can see all of the directories that each represent a class. Your class will also have its own directory with student accounts enrolled, you included!_
 
 All in all, I hope you found this tutorial useful and everything went as expected. There will always be unexpeted problems that come up, so please don't be discouraged when an error or problem occurs. Good luck and have fun!
