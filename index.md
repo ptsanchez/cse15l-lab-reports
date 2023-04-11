@@ -1,7 +1,7 @@
 # How to Use Remote Access in CSE15L
 
 ## Downloading VSCode
-One of the preliminary skillsets of this course is to use remote access in the terminal so that you can utilize the resources of an external computer other than your own. In order to do this, the very first step to set-up this process is to install VScode on your own device. VSCode is a popular programming IDE where we will use the terminal to connect via remote access. 
+One of the preliminary skillsets of this course is to use remote access in the terminal so that you can utilize the resources of an external computer other than your own. In order to do this, the very first step to set-up this process is to install VScode on your own device. VSCode is a popular programming IDE that we will use the terminal to connect via remote access. 
 
 Download the correct version of VScode according to your computer's operating system at the following link: [https://code.visualstudio.com/](https://code.visualstudio.com/). Upon downloading and opening the application, you should be prompted with a similiar looking screen as well as welcome messages.
 
