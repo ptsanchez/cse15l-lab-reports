@@ -26,8 +26,12 @@ At the top of the VSCode terminal, go to the terminal tab to **New Terminal.** W
 $ ssh cs15lsp23gt@ieng6.ucsd.edu
 ```
 
-If this is successful, you should be greeted with a prompt asking a yes/no question. Type in _yes_ and you will be asked to enter in your password. Reminder: enter in your cs15l password that you created earlier with the password reset tool. 
+If this is successful, you should be greeted with a prompt asking a yes/no question. Type in _yes_ and you will be asked to enter in your password. Reminder: enter in your cs15l password that you created earlier with the password reset tool. A successful login should look somewhat similiar to the following output in the terminal: 
 
-_Note: When entering your password, you will not be shown what you are typing, essenially looking like you are not typing anything. This is a security measure and not a bug. Even though it doesn't show you, you will still need to type in your password into the termina asking for your cs15l's username._ 
+![Image](loginSuccess.png)
 
+_Note: When entering your password, you will not be shown what you are typing, essenially looking like you are not typing anything. This is a security measure and not a bug. Even though it doesn't show you, you will still need to type in your password into the terminal asking for your cs15l's username._ 
+
+# Remote Access
+Congragulations! You are now using remote access to connect to a computer in the CSE basement. Any commands that you put in your terminal will be run on that external computer rather than your own. Here are some commands that I found cool to use upon first use of remote access that demonstrate access the file system of another computer: 
  
