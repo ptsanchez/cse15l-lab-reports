@@ -10,8 +10,8 @@ Download the correct version of VScode according to your computer's operating sy
 *Note: Depending on your system preferences, VScode may appear as white or dark mode. I set VScode to be in dark mode, but as long as VScode has a similar layout, you are all set up with VScode.*
 
 ## Setting up your UCSD CSE15L account
-The next step is to reset your password on your own CSE15L account given to you by UCSD. The following process can be access at: https://sdacs.ucsd.edu/~icc/index.php
-Put in your UCSD username (the first part of your UCSD email) and PID. You will be prompted with an "Account Lookuip Results" page, where you will want to find your cs15l account. For instance, mine was listed under Additional Accounts. This will show you your username. **Be sure to take note of your username.** Under your listed username, click the button under to reset your account password. Since this is the first time you are using this account, you need to make a password. 
+The next step is to reset your password on your own CSE15L account given to you by UCSD. The following process can be access at: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php).
+Put in your UCSD username (the first part of your UCSD email) and PID. You will be prompted with an "Account Lookuip Results" page, where you will want to find your cs15l account. For instance, mine was listed under Additional Accounts. This will show you your username. **Be sure to take note of your username.** Under your listed username, click the button *Global Password Change Tool* to reset your account password. Since this is the first time you are using this account, you need to make a password. 
 
 ![Image](cse15lPasswordReset.png)
 
@@ -19,4 +19,15 @@ Put in your UCSD username (the first part of your UCSD email) and PID. You will 
 
 ## Remotely Connecting
 
-Once you have reset your password, now we can use the terminal in VScode to finally use remote access. 
+Once you have reset your password, now we can use the terminal in VScode to finally use remote access. If you have a windows device, you will need to download git if you have not done so previously. This can be found at [https://git-scm.com/](https://git-scm.com/). 
+
+At the top of the VSCode terminal, go to the terminal tab to **New Terminal.** When this terminal is open, on the right side, make sure that the terminal you are using is under bash, which uses _Git Bash_. For example, if you are using windows the default terminal will be powershell. Click the little arrow next to the plus sign on the terminal tab to make a new _Git Bash terminal_. Input the following command, replacing the first part before the "@" with your own cs15l username. The following command is an example of a command using my username to use remote access.
+```
+$ ssh cs15lsp23gt@ieng6.ucsd.edu
+```
+
+If this is successful, you should be greeted with a prompt asking a yes/no question. Type in _yes_ and you will be asked to enter in your password. Reminder: enter in your cs15l password that you created earlier with the password reset tool. 
+
+_Note: When entering your password, you will not be shown what you are typing, essenially looking like you are not typing anything. This is a security measure and not a bug. Even though it doesn't show you, you will still need to type in your password into the termina asking for your cs15l's username._ 
+
+ 
