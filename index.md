@@ -15,7 +15,7 @@ Put in your UCSD username (typically the first part of your UCSD email) and PID.
 
 ![Image](cse15lPasswordReset.png)
 
-**Note: This username and password are seperate from your TritonLink account. When entering in the username of the account to resest your password, ensure that you use your cs15l account and NOT your TritonLink username. Resetting your password sometimes happens immediately and other times can take up to over an hour. If it's not working immediately, please be patient. **
+*Note: This username and password are seperate from your TritonLink account. When entering in the username of the account to resest your password, ensure that you use your cs15l account and NOT your TritonLink username. Resetting your password sometimes happens immediately and other times can take up to over an hour. If it's not working immediately, please be patient.*
 
 ## Remotely Connecting
 
