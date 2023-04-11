@@ -15,7 +15,7 @@ Put in your UCSD username (the first part of your UCSD email) and PID. You will 
 
 ![Image](cse15lPasswordReset.png)
 
-**Note: This username and password are seperate from your TritonLink account. When entering in the username of the account to resest your password, ensure that you use your cs15l account and NOT your TritonLink username.**
+**Note: This username and password are seperate from your TritonLink account. When entering in the username of the account to resest your password, ensure that you use your cs15l account and NOT your TritonLink username. Resetting your password sometimes happens immediately and other times can take up to over an hour. If it's not working immediately, please be patient. **
 
 ## Remotely Connecting
 
@@ -35,3 +35,8 @@ _Note: When entering your password, you will not be shown what you are typing, e
 # Remote Access
 Congragulations! You are now using remote access to connect to a computer in the CSE basement. Any commands that you put in your terminal will be run on that external computer rather than your own. Here are some commands that I found cool to use upon first use of remote access that demonstrate access the file system of another computer: 
  
+![Image](terminal1.png)
+![Image](terminal2.png)
+_This last image appears to show what I believe student accounts in CSE120. By navigating to the directory ieng6, you can see all of the directories that each represent a class. Your class will also have its own directory with student accounts enrolled, you included!_
+
+All in all, I hope you found this tutorial useful and everything went as expected. There will always be unexpeted problems that come up, so please don't be discouraged when an error or problem occurs. Good luck and have fun!
