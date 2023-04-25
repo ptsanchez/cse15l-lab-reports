@@ -42,23 +42,23 @@ Congragulations! You are now using remote access to connect to a computer in the
 ```
 $ ls
 ```
-* Listed all of the files in the current directory. This is the default memory upon Remote Access.
+Listed all of the files in the current directory. This is the default memory upon Remote Access.
 ```
 $ pwd
 ```
-* Displayed the absolute path of the current directory.
+Displayed the absolute path of the current directory.
 ```
 $ cat hello.txt
 ```
-* According to the ls command, there was a hello.txt file in the current directory. By using the cat command, we can read what the contents of the text file are. In this case, its: Hello!
+According to the ls command, there was a hello.txt file in the current directory. By using the cat command, we can read what the contents of the text file are. In this case, its: Hello!
 ```
 $ cd /..
 ```
-* cd stands for change directory and by using `/..` made the directory change to the root directory. You could check this with pwd.
+cd stands for change directory and by using `/..` made the directory change to the root directory. You could check this with pwd.
 ```
 $ ls 
 ```
-* Using ls again, we see there are a bunch of files and other foreign items listed. Since we went back a directory with the previous command, we confirmed we chanted directories successfully using this command.
+Using ls again, we see there are a bunch of files and other foreign items listed. Since we went back a directory with the previous command, we confirmed we chanted directories successfully using this command.
 ```
 $ cd /home/linux/ieng6/cs120sp23a
 $ ls
