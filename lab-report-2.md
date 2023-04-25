@@ -8,7 +8,7 @@
 **First request for StringServer**
 
 ![Image](cse15l-lab-report-2-img1.png)
-* When using `/add-message?s=Hello` the handleRequest method is called. `.getpath()` and `.equals("add/message")` are used in a conditional statement in order to determine if a certain condition is met. In the above instance, this is the case so the conditional is true. `.getQuery().split("=)` is then run to get the user input to concatenate to the web page
+* When using `/add-message?s=Hello` the handleRequest method is called. `.getpath()` and `.equals("add/message")` are used in a conditional statement in order to determine if a certain condition is met. In the above instance, this is the case so the conditional is true. `.getQuery().split("=")` is then run to get the user input to concatenate to the web page
 * Relevant arguments to the methods are "/add-message" as this is the way the program checks to see if the url is structured correctly. If it is, checked through a conditional, then the query from `.getQuery()` can be split and concatenated to the web page. Another important argument is the URI type argument of the handleRequest method that takes in the url of the webpage. This holds core functionality such that the rest of the methods are able to run. 
 * The main determining value that is relevant to the above screenshot is the query of the URL. When `/add-message?s=Hello` was added to the URL, the relevant methods mentioned before determined what the string value should be. In this case, "Hello" was the string value. With this information, the string value then was concatenated to the webpage, which was originally empty. 
 
