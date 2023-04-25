@@ -22,7 +22,7 @@
 ## Part 2
 The bug that I will be discussing for this part is the bug found in the reversed method 
 
-* JUnit test that demonstrates reversed method failure:
+* JUnit test that induces a failure using the reversed method:
 ```
 @Test
 public void testReversed() {
