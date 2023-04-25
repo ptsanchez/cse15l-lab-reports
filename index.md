@@ -38,6 +38,31 @@ Congragulations! You are now using remote access to connect to a computer in the
 ![Image](terminal1.png)
 ![Image](terminal2.png)
 
-_This last image appears to show what I believe student accounts in CSE120. By navigating to the directory ieng6, you can see all of the directories that each represent a class. Your class will also have its own directory with student accounts enrolled, you included!_
-
+**Example Commands Ran With Remote Access**
+```
+$ ls
+```
+* Listed all of the files in the current directory. This is the default memory upon Remote Access.
+```
+$ pwd
+```
+* Displayed the absolute path of the current directory.
+```
+$ cat hello.txt
+```
+* According to the ls command, there was a hello.txt file in the current directory. By using the cat command, we can read what the contents of the text file are. In this case, its: Hello!
+```
+$ cd /..
+```
+* cd stands for change directory and by using `/..` made the directory change to the root directory. You could check this with pwd.
+```
+$ ls 
+```
+* Using ls again, we see there are a bunch of files and other foreign items listed. Since we went back a directory with the previous command, we confirmed we chanted directories successfully using this command.
+```
+$ cd /home/linux/ieng6/cs120sp23a
+$ ls
+```
+* The set of commands above assumes you're at the root directory of the Remote Access Computer, changed the directory into a folder titled 'cs120sp23a' and then lists all the files in this folder. It is safe to assume that the folder represents a particular section of the cse120 class of this quarter, and the listed files are individual student accounts. If you were to try and cd into them, you would be prompted with "Permission denied." This same process can be done with cse15l, but I'll leave it up to you to figure out how to navigate the terminal to do so. 
+---
 All in all, I hope you found this tutorial useful and everything went as expected. There will always be unexpeted problems that come up, so please don't be discouraged when an error or problem occurs. Good luck and have fun!
