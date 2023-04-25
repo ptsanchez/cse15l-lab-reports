@@ -41,3 +41,34 @@ public void testReversed2() {
 }
 ```
 * Output in terminal demonstrating buggy implementation of reversed method: 
+![Image](cs15l-lab3-report-part2-JUnit.png)
+
+* Before code change: buggy method implementation
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+After code change: fixed method implementation:
+```
+ static int[] reversed(int[] arr) {
+   int[] newArray = new int[arr.length];
+   for(int i = 0; i < arr.length; i += 1) {
+     //assignment has been revered so newArray holds the reversed array
+     newArray[i] = arr[arr.length - i - 1];
+   }
+   //should return newArray
+   return newArray;
+ }
+```
+In the buggy implementation of the reversed method, the main issue at hand was `arr[i] = newArray[arr.length - i - 1];`
+The method is supposed to return a new array that possessed the reversed order of the original array, yet what this line is doing is the complete opposite. Since arr[i] is on the left hand side, the original array is being overwritten. Even though newArray was initialized, it is never being used. Additionally, in the return statement, the original array is being returned and _not_ a new array.
+
+To fix this, the array assignment line on the left hand side uses newArray indexes, so the newly created array is being filled in with the elements of the original array in reversed order. Lastly, change the return statement to make it return newArray.
+
+## Part 3
+One thing I learned these past two weeks in lab was working with servers to host a web page. This is something that never crossed my mind before, but during lab 2 I learned how to create and host a web page, and the general background structure of how it works. Contrary to this web page that uses markdown and GitHub Pages, the numerous web pages we create were established using Java. We actually coded logic programs such as StringServer that use Java to manipulate the web page, which can solely be done using the URL.
