@@ -63,6 +63,7 @@ $ ls
 $ cd /home/linux/ieng6/cs120sp23a
 $ ls
 ```
-* The set of commands above assumes you're at the root directory of the Remote Access Computer, changed the directory into a folder titled 'cs120sp23a' and then lists all the files in this folder. It is safe to assume that the folder represents a particular section of the cse120 class of this quarter, and the listed files are individual student accounts. If you were to try and cd into them, you would be prompted with "Permission denied." This same process can be done with cse15l, but I'll leave it up to you to figure out how to navigate the terminal to do so. 
+_The set of commands above assumes you're at the root directory of the Remote Access Computer, changed the directory into a folder titled 'cs120sp23a' and then lists all the files in this folder. It is safe to assume that the folder represents a particular section of the cse120 class of this quarter, and the listed files are individual student accounts. If you were to try and cd into them, you would be prompted with "Permission denied." This same process can be done with cse15l, but I'll leave it up to you to figure out how to navigate the terminal to do so._
+
 ---
 All in all, I hope you found this tutorial useful and everything went as expected. There will always be unexpeted problems that come up, so please don't be discouraged when an error or problem occurs. Good luck and have fun!
