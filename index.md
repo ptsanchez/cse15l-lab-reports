@@ -42,7 +42,7 @@ Congragulations! You are now using remote access to connect to a computer in the
 ```
 $ ls
 ```
-Listed all of the files in the current directory. This is the default memory upon Remote Access.
+Listed all of the files in the current directory. This is the default directory upon Remote Access as it is your account.
 ```
 $ pwd
 ```
@@ -58,7 +58,7 @@ cd stands for change directory and by using `/..` made the directory change to t
 ```
 $ ls 
 ```
-Using ls again, we see there are a bunch of files and other foreign items listed. Since we went back a directory with the previous command, we confirmed we chanted directories successfully using this command.
+Using ls again, we see there are a bunch of files and other foreign items listed. Since we went back a directory with the previous command, we confirmed the change of directories was successfully using this command.
 ```
 $ cd /home/linux/ieng6/cs120sp23a
 $ ls
