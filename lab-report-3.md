@@ -5,7 +5,7 @@ The grep command has numerous different options and ways to utilize its full fun
 
 ## grep -i
 ```
-$ -i 'hello' 911report/chapter-1.txt
+$ grep -i 'hello' 911report/chapter-1.txt
     At 10:39, the Vice President updated the Secretary on the air threat conference: Vice President: There's been at least three instances here where we've had reports of aircraft approaching Washington-a 
 couple were confirmed hijack. And, pursuant to the President's instructions I gave authorization for them to be taken out. Hello?
 ```
