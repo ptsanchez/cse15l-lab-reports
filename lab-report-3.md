@@ -44,7 +44,7 @@ On the other hand, this option to grep is very useful if we only wanted to count
 Source for grep -c: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 ## grep -n
 ```
-$ -n 'New York' government/Media/Terrorist_Attack.txt 
+$ grep -n 'New York' government/Media/Terrorist_Attack.txt 
 11:publico in the history of the New York State Unified Court
 29:Street. He would later tell a New York Law Journal reporter of the
 51:of the New York Fire Department. With reference to the devastation
