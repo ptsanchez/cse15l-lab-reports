@@ -90,6 +90,9 @@ $ grep -B 2 'cell' biomed/cc1852.txt
 grep -B has more interesting behavior as this command finds all the lines that match with the given string, but also provides relative context by also listing lines before the line with the matched string. This has many applications for searching strings in a file considering the fact that 
 
 ```
-
+grep -B 1 "Latin America and China" plos/journal.pbio.0020001.txt
+        implied? A closer look at the trends over the last decade reveals important advances in
+        developing countries. For example, Latin America and China, although representing,
 ```
+A nice feature that this command implements is the ability to cdontrol the amount of lines that you want. This is helpful as depending on the situation, you might want to be provided context of the strings that are being matched, so you can change the amount of lines displayed to whatever you need. 
 Source for grep -B: [https://linuxhint.com/grep_command_linux/](https://linuxhint.com/grep_command_linux/)
