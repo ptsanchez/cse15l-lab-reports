@@ -94,6 +94,6 @@ $ grep -B 1 "Latin America and China" plos/journal.pbio.0020001.txt
         implied? A closer look at the trends over the last decade reveals important advances in
         developing countries. For example, Latin America and China, although representing,
 ```
-A nice feature that this command implements is the ability to cdontrol the amount of lines that you want. This is helpful as depending on the situation, you might want to be provided context of the strings that are being matched, so you can change the amount of lines displayed to whatever you need. 
+A nice feature that this command implements is the ability to control the amount of lines that you want. This is helpful as depending on the situation, you might want to be provided context of the strings that are being matched, so you can change the amount of lines displayed to whatever you need whether that be 10 or 100.
 
 Source for grep -B: [https://linuxhint.com/grep_command_linux/](https://linuxhint.com/grep_command_linux/)
