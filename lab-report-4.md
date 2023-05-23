@@ -27,7 +27,7 @@ In vim, I pressed the following sets of keys. Note that special characters like 
 
 **Keys pressed: /index1 -enter- nnnnnnnnn -right- -right- -right- -right- -right- xi2 -esc- :wq -enter-**
 
-_/index searches for all instances of "index1", where i pressed n 9 times in order to go to the bug was located. I moved the cursor to the right 5 times and pressed the x key, which deleted the 2. I then pressed 
+_/index searches for all instances of "index1", where i pressed n 9 times in order to go cycle to the where the actual bug was located. I moved the cursor to the right 5 times and pressed the x key, which deleted the 2. I then pressed 
   i, entering insert mode in order to add a 1, making the variable update correctly be named "index2". From there, I pressed esc to exit insert mode, and then typed :wq which is a vim command that exits vim
   while saving the changes I made_
   
