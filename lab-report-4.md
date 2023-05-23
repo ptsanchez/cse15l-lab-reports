@@ -14,7 +14,12 @@ After forking the provided repository, I inputted the following into the termina
 ![Image](lab-report-4-img2.png)
 
 ## Step 6:
-Demonstrating tests fail **without** edits:
+Demonstrating tests fail **without** edits. Ran the test.sh script by typing into the terminal:
+
+```
+$ bash test.sh
+```
+
 ![Image](lab-report-4-img6.png)
 
 ## Step 7:
@@ -36,7 +41,7 @@ _/index searches for all instances of "index1", where i pressed n 9 times in ord
 After this edit was made, I entered the following into the terminal again in order to demonstrate that the fix worked, and the file functions as intended:
 
 ```
-$ ssh cs15lsp23gt@ieng6.ucsd.edu
+$ bash test.sh
 ```
 
 ![Image](lab-report-4-img4.png)
