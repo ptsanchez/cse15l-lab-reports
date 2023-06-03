@@ -16,6 +16,8 @@
 
 ![Image](lab-report-5-img5.png)
 
+_As seen in the above screenshot, the incorrect implementation provided by the TA appears to be running and passing all of the tests successfully. This is a concern, considering the fact that the bash grading script should obviously fail on bad implementations of the method. Even though there is a bug located in the given repository, the grading script falsely passes all of the tests which should not be the case._
+
 # Information about Setup
 
 **File Structure**
