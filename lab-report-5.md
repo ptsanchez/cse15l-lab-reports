@@ -22,10 +22,10 @@
 
 ![Image](lab-report-5-img6.png)
 
-**Contents of TestListExamples.java**
+**Contents of TestListExamples.java before fix**
 
-![Image](lab-report-5-img7.png)
+![Image](lab-report-5-img2.png)
 
 **Contents of grade.sh**
-
+![Image](lab-report-5-img7.png)
 ![Image](lab-report-5-img8.png)
