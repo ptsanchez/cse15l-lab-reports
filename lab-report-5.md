@@ -25,12 +25,14 @@ _As seen in the above screenshot, the incorrect implementation provided by the T
 ![Image](lab-report-5-img6.png)
 
 **Contents of grade.sh**
+
 ![Image](lab-report-5-img7.png)
 ![Image](lab-report-5-img8.png)
 
 **Contents of TestListExamples.java before fix**
 
 ![Image](lab-report-5-img2.png)
+
 
 In order to fix the bug and have the student pass their assignment, there needs to be another test implemented that catches a particular bug that is in the bad implementation. In the contents of the bad implementation, the program incorrectly handled instances where the two elements being compared are exactly the same. In a correct implementation, when two lists being merged have the same exact element and are being compared at the same time both elements should be added to the new list. This is not being tested. If another test were written in TestListExamples.java, this would clear up this issue.
 
