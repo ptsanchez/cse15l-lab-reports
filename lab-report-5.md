@@ -1,3 +1,9 @@
-# Part 1
+# Lab Report 5
 
-test
+## Part 1
+
+**Original Post:**
+
+![Image](lab-report-5-img1.png)
+![Image](lab-report-5-img2.png)
+![Image](lab-report-5-img3.png)
