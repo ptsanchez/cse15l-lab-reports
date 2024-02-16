@@ -1,3 +1,3 @@
-## Lab Reports for CSE15L - Software Tools and Techniques Laboratory - A UCSD CSE Course
+## Lab Reports for CSE15L - Software Tools and Techniques Laboratory
 
-https://ptsanchez.github.io/cse15l-lab-reports/
+- Lab Report 1: https://ptsanchez.github.io/cse15l-lab-reports/
